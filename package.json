@@ -2,13 +2,19 @@
   "name": "@snapblocks/snap-css",
   "private": true,
   "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@storybook/html": "^5.3.14",
+    "babel-loader": "^8.0.6",
     "lerna": "^3.20.2"
   },
   "description": "Snapblocks base theme library.",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styleguide": "start-storybook -p 6006",
+    "build-styleguide": "build-storybook",
+    "version": "lerna version --conventional-commits --yes"
   },
   "repository": {
     "type": "git",
@@ -23,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/snapblocks/snap-css/issues"
   },
-  "homepage": "https://github.com/snapblocks/snap-css#readme"
+  "homepage": "https://github.com/snapblocks/snap-css#readme",
+  "dependencies": {}
 }
