@@ -1,0 +1,6 @@
+/*! Snapblocks Colors */
+@import './node_modules/open-color/open-color.css';
+
+body {
+  color: var(--oc-gray-9);
+}
