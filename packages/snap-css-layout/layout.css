@@ -11,10 +11,10 @@
   --layout-space-xxl: 56px;
   --layout-space-xxxl: 80px;
 
-  /* vertical spacing */
-  --layout-vspace-s: 24px;
-  --layout-vspace-m: 44px;
-  --layout-vspace-l: 56px;
+  /* height for UI elements */
+  --layout-height-s: 24px;
+  --layout-height-m: 44px;
+  --layout-height-l: 56px;
 
   /* border radius */
   --layout-radius-s: 4px;
