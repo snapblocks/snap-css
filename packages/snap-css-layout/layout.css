@@ -1,0 +1,23 @@
+/*! Snapblocks Layout and grid styles */
+:root {
+  /* spacing */
+  --layout-space-xxxs: 4px;
+  --layout-space-xxs: 8px;
+  --layout-space-xs: 12px;
+  --layout-space-s: 16px;
+  --layout-space-m: 24px;
+  --layout-space-l: 32px;
+  --layout-space-xl: 44px;
+  --layout-space-xxl: 56px;
+  --layout-space-xxxl: 80px;
+
+  /* vertical spacing */
+  --layout-vspace-s: 24px;
+  --layout-vspace-m: 44px;
+  --layout-vspace-l: 56px;
+
+  /* border radius */
+  --layout-radius-s: 4px;
+  --layout-radius-m: 8px;
+  --layout-radius-l: 12px;
+}

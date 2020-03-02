@@ -1,0 +1,13 @@
+/* Snapblocks Button styles  */
+/* dependencies */
+/* - colors */
+/* - layout */
+button {
+  background: none;
+  border: 0;
+  line-height: var(--layout-vspace-m);
+  padding: 0 var(--layout-space-s);
+  background: black;
+  color: white;
+  border-radius: var(--layout-radius-s);
+}

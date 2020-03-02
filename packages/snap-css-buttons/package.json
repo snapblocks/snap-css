@@ -1,0 +1,34 @@
+{
+  "name": "@snapblocks/snap-css-buttons",
+  "version": "0.0.0",
+  "description": "Snapblocks CSS buttons",
+  "keywords": [
+    "snapblocks",
+    "css",
+    "buttons"
+  ],
+  "author": "Mariz Melo <mm@xchema.com>",
+  "homepage": "https://github.com/snapblocks/snap-css/tree/master/packages/snap-css-buttons#readme",
+  "license": "MIT",
+  "main": "lib/snap-css-buttons.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snapblocks/snap-css.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/snapblocks/snap-css/issues"
+  }
+}
