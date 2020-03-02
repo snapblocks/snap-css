@@ -2,8 +2,7 @@ import '../packages/snap-css/snap-css.css';
 import '../packages/snap-css-colors/colors.css';
 import '../packages/snap-css-typography/typography.css';
 import '../packages/snap-css-layout/layout.css';
-import '../packages/snap-css-forms/forms.css';
-import '../packages/snap-css-buttons/buttons.css';
+import '../packages/snap-css-controls/controls.css';
 
 export default {
   title: 'Design',

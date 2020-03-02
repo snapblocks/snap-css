@@ -1,2 +1,2 @@
 # snap-css
-Snapblocks base theme library.
+Snapblocks CSS library.
