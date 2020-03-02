@@ -1,6 +1,14 @@
 /*! Snapblocks Colors */
 @import './node_modules/open-color/open-color.css';
 
+:root {
+  /* borders */
+  --color-border: var(--oc-gray-6);
+  /* buttons */
+  --color-button-text: var(--oc-gray-0);
+  --color-button-background: var(--oc-gray-9);
+}
+
 body {
   color: var(--oc-gray-9);
 }
