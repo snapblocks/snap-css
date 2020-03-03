@@ -4,7 +4,8 @@
 button,
 input[type=button],
 input[type=submit],
-input[type=reset] {
+input[type=reset],
+input[type=file]::-webkit-file-upload-button {
   background: none;
   border: 1px solid var(--color-button-background);
   line-height: var(--layout-height-m);
@@ -20,7 +21,14 @@ input {
 }
 /* checkboxes */
 input[type=checkbox] {
-
+  height: var(--layout-height-m);
+  width: var(--layout-height-m);
+  outline: 1px solid black;
+  outline-offset: -1px;
+  vertical-align: middle;
+}
+label {
+  vertical-align: middle;
 }
 /* native color picker */
 input[type=color] {
@@ -47,14 +55,11 @@ input[type=week] {
 }
 /* file upload */
 input[type=file] {
-  width: 100%;
-  padding: 0 var(--layout-space-s);
-  border: 1px dotted var(--color-border);
   line-height: var(--layout-height-m);
   text-align: center;
 }
-input[type=file]::-webkit-file-upload-button{
-  border: 0;
+input[type=file]::-webkit-file-upload-button {
+  /* line-height: var(--layout-height-s); */
 }
 /* hidden */
 input[type=hidden] {

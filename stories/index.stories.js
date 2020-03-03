@@ -40,7 +40,9 @@ export const Forms = () => `
   <br>
   <input type="password" placeholder="Enter a password">
   <br>
-  <input type="checkbox">
+  <label class="container">
+    <input type="checkbox" checked="checked"> One
+  </label>
   <br>
   <input type="search" placeholder="Enter a search">
   <br>
