@@ -1,7 +1,10 @@
 /* Snapblocks CSS styles for control elements */
 
 /* Snapblocks Button styles  */
-button {
+button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
   background: none;
   border: 1px solid var(--color-button-background);
   line-height: var(--layout-vspace-m);
@@ -10,7 +13,6 @@ button {
   color: var(--color-button-text);
   border-radius: var(--layout-radius-s);
 }
-
 
 /* Snapblocks form elements styles */
 input {
