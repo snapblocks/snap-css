@@ -11,10 +11,10 @@ input:focus {
 }
 /* checkboxes */
 /* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+/* https://css-tricks.com/almanac/selectors/c/checked/ */
 input[type=checkbox] {
   height: var(--layout-height-m);
   width: var(--layout-height-m);
-  outline: 1px solid black;
   outline-offset: -1px;
   vertical-align: middle;
 }
@@ -28,6 +28,7 @@ input[type=date] {
 
 }
 /* input text */
+input[list],
 input[type=date],
 input[type=datetime-local],
 input[type=email],

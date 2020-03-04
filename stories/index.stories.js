@@ -51,6 +51,15 @@ export const Forms = () => `
   <input type="reset">
   <br>
   <input type="url">
+  <br>
+  <input list="browsers" placeholder="Enter browser name">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Google Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
 `;
 
 export const Layout = () => `layout`;
