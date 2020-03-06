@@ -1,14 +1,18 @@
 /* Snapblocks CSS styles for control elements */
-
+:root {
+  /* borders */
+  --border: 1px solid var(--color-border);
+  --border-focus: 1px solid blue;
+}
 /* Snapblocks form elements styles */
 input {
   box-sizing: border-box;
   outline: none;
 }
 input:focus {
-  outline: 1px solid blue;
+  outline: var(--border-focus);
   border-radius: var(--layout-radius-s);
-}
+}/* Remove outline for non-keyboard :focus */
 /* checkboxes */
 /* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
 /* https://css-tricks.com/almanac/selectors/c/checked/ */
@@ -19,8 +23,19 @@ input[type=checkbox] {
   vertical-align: middle;
 }
 /* native color picker */
+/* https://stackoverflow.com/questions/11167281/webkit-css-to-control-the-box-around-the-color-in-an-inputtype-color */
 input[type=color] {
   line-height: var(--layout-height-m);
+  padding: 0;
+  border: 0;
+}
+input[type=color]::-webkit-color-swatch-wrapper {
+  padding: var(--layout-space-xxxs);
+  border: var(--border);
+
+}
+input[type="color"]::-webkit-color-swatch {
+	border: var(--border);
 }
 /* date */
 /* https://stackoverflow.com/questions/14946091/are-there-any-style-options-for-the-html5-date-picker */
@@ -44,7 +59,7 @@ input[type=week] {
   line-height: var(--layout-height-m);
   padding: 0 var(--layout-space-s);
   font-size: var(--font-size-s);
-  border: 1px solid var(--color-border);
+  border: var(--border);
   border-radius: var(--layout-radius-s);
 }
 /* file upload */
