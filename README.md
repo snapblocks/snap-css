@@ -1,2 +1,2 @@
-# snap-styles
-Snapblocks framework agnostic styles library.
+# snap-css
+Snapblocks framework agnostic CSS styles library.
