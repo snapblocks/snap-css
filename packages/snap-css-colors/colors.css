@@ -2,6 +2,8 @@
 @import './node_modules/open-color/open-color.css';
 
 :root {
+  /* light background (default) */
+  --color-background: var(--oc-gray-0);
   /* borders */
   --color-border: var(--oc-gray-6);
   /* buttons */

@@ -1,8 +1,8 @@
 /* Snapblocks CSS styles for control elements */
 :root {
   /* borders */
-  --border: 1px solid var(--color-border);
-  --border-focus: 1px solid blue;
+  --controls-border: 1px solid var(--color-border);
+  --controls-border-focus: 1px solid blue;
 }
 /* Snapblocks form elements styles */
 input {
@@ -13,7 +13,7 @@ input {
 /* https://css-tricks.com/almanac/selectors/f/focus/ */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
 input:focus {
-  outline: var(--border-focus);
+  outline: var(--controls-border-focus);
   border-radius: var(--layout-radius-s);
 }/* Remove outline for non-keyboard :focus */
 /* checkboxes */
@@ -28,17 +28,20 @@ input[type=checkbox] {
 /* native color picker */
 /* https://stackoverflow.com/questions/11167281/webkit-css-to-control-the-box-around-the-color-in-an-inputtype-color */
 input[type=color] {
-  line-height: var(--layout-height-m);
+  height: var(--layout-height-s);
+  margin: calc((44px - var(--layout-height-s))/2) 0;
   padding: 0;
   border: 0;
 }
 input[type=color]::-webkit-color-swatch-wrapper {
-  padding: var(--layout-space-xxxs);
-  border: var(--border);
-
+  background: var(--color-background);
+  padding: var(--layout-space-xxxxs);
+  border: var(--controls-border);
+  border-radius: var(--layout-radius-s);
 }
 input[type="color"]::-webkit-color-swatch {
-	border: var(--border);
+	border: var(--controls-border);
+  border-radius: calc(var(--layout-radius-s)/2);
 }
 /* date */
 /* https://stackoverflow.com/questions/14946091/are-there-any-style-options-for-the-html5-date-picker */
@@ -62,7 +65,7 @@ input[type=week] {
   line-height: var(--layout-height-m);
   padding: 0 var(--layout-space-s);
   font-size: var(--font-size-s);
-  border: var(--border);
+  border: var(--controls-border);
   border-radius: var(--layout-radius-s);
 }
 /* file upload */

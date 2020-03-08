@@ -1,6 +1,7 @@
 /*! Snapblocks Layout and grid styles */
 :root {
   /* spacing */
+  --layout-space-xxxxs: 2px;
   --layout-space-xxxs: 4px;
   --layout-space-xxs: 8px;
   --layout-space-xs: 12px;
@@ -12,9 +13,9 @@
   --layout-space-xxxl: 80px;
 
   /* height for UI elements */
-  --layout-height-s: 24px;
+  --layout-height-s: 28px;
   --layout-height-m: 44px;
-  --layout-height-l: 56px;
+  --layout-height-l: 60px;
 
   /* border radius */
   --layout-radius-s: 4px;
