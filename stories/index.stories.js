@@ -13,6 +13,19 @@ export const Colors = () => `
 `;
 
 export const Typography = () => `
+
+  <b>PARAGRAPH</b>
+  <hr>
+  <p>
+  Tempore et est exercitationem quidem et. Quasi autem suscipit at voluptas ut voluptate adipisci. Omnis consequatur molestiae accusantium molestiae facilis ut non. Qui architecto nihil inventore quia aut eos at consectetur vel. Unde est atque nisi voluptas dolorem eveniet voluptas vel. Ut quia ipsam totam et ut expedita ut veritatis sunt. Odio sunt culpa culpa sint. Voluptatem vel iste. Fugit et temporibus voluptatibus rerum et alias a dolor tenetur. Ut doloremque aspernatur assumenda fugiat dolorum eum velit sint. Qui saepe facere ab impedit accusamus et nam. Laborum esse blanditiis. Iure quaerat magnam dolor dolores voluptatum quaerat earum. Quis rerum possimus possimus ut est temporibus quidem sint animi.
+  </p>
+  <p>
+  Tempore et est exercitationem quidem et. Quasi autem suscipit at voluptas ut voluptate adipisci. Omnis consequatur molestiae accusantium molestiae facilis ut non. Qui architecto nihil inventore quia aut eos at consectetur vel. Unde est atque nisi voluptas dolorem eveniet voluptas vel. Ut quia ipsam totam et ut expedita ut veritatis sunt. Odio sunt culpa culpa sint. Voluptatem vel iste. Fugit et temporibus voluptatibus rerum et alias a dolor tenetur. Ut doloremque aspernatur assumenda fugiat dolorum eum velit sint. Qui saepe facere ab impedit accusamus et nam. Laborum esse blanditiis. Iure quaerat magnam dolor dolores voluptatum quaerat earum. Quis rerum possimus possimus ut est temporibus quidem sint animi.
+  </p>
+
+  <br><br>
+  <b>HEADINGS</b>
+  <hr/>
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
   <h3>Heading 3</h3>
