@@ -71,11 +71,14 @@ input[type=week] {
 /* file upload */
 /* https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/ */
 /* https://css-tricks.com/snippets/css/custom-file-input-styling-webkitblink/ */
+/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file */
 input[type=file] {
   line-height: var(--layout-height-m);
   text-align: center;
 }
-input[type=file]::-webkit-file-upload-button {}
+input[type=file]::-webkit-file-upload-button {
+  
+}
 /* hidden */
 input[type=hidden] {
 
