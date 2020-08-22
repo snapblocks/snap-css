@@ -2,10 +2,10 @@
   "name": "@snapblocks/snap-css",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "@storybook/html": "^5.3.14",
-    "babel-loader": "^8.0.6",
-    "lerna": "^3.20.2"
+    "@babel/core": "^7.11.4",
+    "@storybook/html": "^6.0.16",
+    "babel-loader": "^8.1.0",
+    "lerna": "^3.22.1"
   },
   "description": "Snapblocks CSS technology agnostic UI framework",
   "version": "0.0.0",
